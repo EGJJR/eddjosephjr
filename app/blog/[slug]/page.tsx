@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import Link from "@/app/components/Link";
 import { allBlogs } from ".contentlayer/generated";
 
-import Avatar from "@/app/components/Avatar";
+// import Avatar from "@/app/components/Avatar";
 import Tags from "@/app/components/Tags";
 import Mdx from "@/app/blog/components/MdxWrapper";
 import FlipNumber from "@/app/components/FlipNumber";
