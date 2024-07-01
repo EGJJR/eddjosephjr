@@ -55,8 +55,8 @@ export default function About() {
           style={{ "--index": 2 } as React.CSSProperties}
         >
           <Image
-            src={blueHour}
-            alt={"blueHour"}
+            src={working}
+            alt={"working"}
             width={220}
             height={260}
             className="pointer-events-none absolute inset-0 -top-48 left-[45%] w-48 rotate-6 rounded-xl bg-gray-400 object-cover shadow-md md:left-[60%] md:w-56"
