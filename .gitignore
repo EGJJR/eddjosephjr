@@ -43,3 +43,6 @@ generated
 
 .vscode
 .vscode/
+
+# env files
+.env

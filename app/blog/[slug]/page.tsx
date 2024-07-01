@@ -8,7 +8,7 @@ import Avatar from "@/app/components/Avatar";
 import Tags from "@/app/components/Tags";
 import Mdx from "@/app/blog/components/MdxWrapper";
 import FlipNumber from "@/app/components/FlipNumber";
-import Me from "@/public/avatar.png";
+// import Me from "@/public/avatar.png";
 
 import { formatDate } from "@/app/_utils/formatDate";
 import { getViewsCount } from "@/app/db/queries";
@@ -39,19 +39,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   } = blog;
 
   const ogImage = image
-    ? `https://b-r.io/${image}`
-    : `https://b-r.io/api/og?title=${title}`;
+    ? `https://eddjosephjr.com/${image}`
+    : `https://eddjosephjr.com/api/og?title=${title}`;
 
   const metadata: Metadata = {
-    metadataBase: new URL("https://b-r.io"),
-    title: `${title} | Brian Ruiz`,
+    metadataBase: new URL("https://eddjospehjr.com"),
+    title: `${title} | Edd Joseph Jr.`,
     description,
     openGraph: {
-      title: `${title} | Brian Ruiz`,
+      title: `${title} | Edd Joseph Jr.`,
       description,
       type: "article",
       publishedTime,
-      url: `https://b-r.io/blog/${slug}`,
+      url: `https://eddjosephjr.com/blog/${slug}`,
       images: [{ url: ogImage, alt: title }],
     },
   };
@@ -77,9 +77,9 @@ export default async function Blog({ params }: { params: any }) {
             <p className="text-secondary">{blog.summary}</p>
           </div>
           <div className="flex max-w-none items-center gap-4">
-            <Avatar src={Me} initials="br" size="sm" />
+            {/* <Avatar src={Me} initials="ej" size="sm" /> */}
             <div className="leading-tight">
-              <p>Brian Ruiz</p>
+              <p>Edd Joseph</p>
               <p className="text-secondary">
                 <time dateTime={blog.date}>{formatDate(blog.date)}</time>
                 {blog.updatedAt

@@ -8,15 +8,15 @@ import { FaYoutube } from "react-icons/fa";
 import Link from "@/app/components/Link";
 
 export const metadata: Metadata = {
-  title: "Mediakit | Brian Ruiz",
+  title: "Mediakit | Edd Joseph Jr.",
   description:
-    "Creator based in Houston. Focuses on topics including consumer technology, software engineering, design, and lifestyle.",
+    "Founder, CEO, Software Engineer, and a Content Creator, sharing, documenting, and building.",
 };
 
 // get youtube subs count from route handler api/youtube
 async function getData() {
   const res = await fetch(
-    `https://b-r.io/api/youtube`,
+    `https://eddjosephjr.com/api/youtube`,
     {
       next: {
         revalidate: 86400, // 24 hours
@@ -44,7 +44,7 @@ export default async function Mediakit() {
           <div className="flex flex-col gap-1">
             <h3 className="leading-none text-secondary">Media Kit</h3>
             <h2 className="whitespace-nowrap text-4xl font-bold tracking-tight">
-              Brian Ruiz
+              Edd Joseph Jr.
             </h2>
           </div>
           <div className="flex w-fit max-w-md flex-col gap-1 md:max-w-sm">
@@ -59,9 +59,8 @@ export default async function Mediakit() {
               </span>
             </div>
             <p className="z-50 text-sm text-secondary">
-              Creator based in Houston. Focuses on topics including consumer
-              technology, software engineering, design, and lifestyle.{" "}
-              <Link href="https://www.youtube.com/@brianruizy" underline>
+            Founder, CEO, Software Engineer, and a Content Creator, sharing, documenting, and building.{" "}
+              <Link href="https://www.youtube.com/@eddjosephjr" underline>
                 Visit channel.
               </Link>
             </p>

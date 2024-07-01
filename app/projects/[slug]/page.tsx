@@ -29,7 +29,7 @@ export default function Project({ params }: { params: any }) {
           <div className="flex max-w-none items-center gap-4">
             <Avatar src={Me} initials="br" size="sm" />
             <div className="leading-tight">
-              <p>Brian Ruiz</p>
+              <p>Edd Joseph Jr.</p>
               <p className="text-secondary">
                 <time dateTime={project.date}>{project.date}</time>
                 {" · "}

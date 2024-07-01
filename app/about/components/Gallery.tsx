@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 import clsx from "clsx";
 import localFont from 'next/font/local'
 
-import texas from "public/gallery/texas.jpg";
-import meLily from "public/gallery/me-lily.jpg";
-import colorado from "public/gallery/colorado.jpg";
-import cowboy from "public/gallery/cowboy-bike.webp";
+import portrait from "public/gallery/portrait.jpeg";
+import blueHour from "public/gallery/bluehour.jpg";
+import field from "public/gallery/field.jpeg";
+import working from "public/gallery/working.jpg";
 
 import Halo from "@/app/components/Halo";
 
@@ -141,9 +141,9 @@ export default function Gallery() {
     <>
       <section className="flex gap-4 h-[268px] relative">
         <Photo
-          src={meLily}
+          src={portrait}
           meta="2021-07-12"
-          alt="Brian and Lily"
+          alt="portrait"
           width={324}
           height={239}
           rotate={-6}
@@ -151,9 +151,9 @@ export default function Gallery() {
           index={1}
         />
         <Photo
-          src={cowboy}
+          src={blueHour}
           meta="2017-07-04"
-          alt="my e-bike"
+          alt="blueHour"
           width={230}
           height={250}
           rotate={6.3}
@@ -162,9 +162,9 @@ export default function Gallery() {
           flipDirection="left"
         />
          <Photo
-          src={texas}
+          src={field}
           meta="2021-05-20"
-          alt="Texas"
+          alt="field"
           width={280}
           height={235}
           rotate={-5.4}
@@ -172,9 +172,9 @@ export default function Gallery() {
           index={3}
         />
         <Photo
-          src={colorado}
+          src={working}
           meta="2022-09-10"
-          alt={"Snowboarding in Colorado"}
+          alt={"working on computer"}
           width={220}
           height={260}
           rotate={7.6}

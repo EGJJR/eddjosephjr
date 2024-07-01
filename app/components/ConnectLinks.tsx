@@ -16,7 +16,7 @@ interface ConnectLink {
 const ConnectLinks: ConnectLink[] = [
   // {
   //   label: "Email",
-  //   href: "mailto:contact@b-r.io",
+  //   href: "mailto:josepheddjr@gmail.com",
   //   icon: (
   //     <svg
   //       xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ const ConnectLinks: ConnectLink[] = [
   // },
   {
     label: "Partnerships",
-    href: "mailto:partners@b-r.io",
+    href: "mailto:josepheddjr@gmail.com",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -46,32 +46,32 @@ const ConnectLinks: ConnectLink[] = [
   },
   {
     label: "YouTube",
-    href: "https://www.youtube.com/@brianruizy",
+    href: "https://www.youtube.com/@eddjosephjr",
     icon: <FaYoutube />,
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/brianruizy/",
+    href: "https://www.instagram.com/eddjospehjr/",
     icon: <FaInstagram />,
   },
   {
     label: "Twitter",
-    href: "https://twitter.com/brianruizy",
+    href: "https://twitter.com/EddJoseph_",
     icon: <FaXTwitter />,
   },
   {
     label: "Discord",
-    href: "https://discord.gg/KhNh8nbw3U",
+    href: "https://discord.gg/4Gu6CnEy",
     icon: <FaDiscord />,
   },
   {
     label: "GitHub",
-    href: "https://github.com/brianruizy",
+    href: "https://github.com/EGJJR",
     icon: <FaGithub />,
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/brianruizy/",
+    href: "https://www.linkedin.com/in/edd-joseph/",
     icon: <FaLinkedin />,
   },
 ];

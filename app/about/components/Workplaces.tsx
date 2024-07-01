@@ -24,7 +24,7 @@ function Workplace({ title, company, imageSrc, date, link }: Workplace) {
           height={48}
           className={clsx(
             "rounded-full",
-            company === "University of Houston" && "bg-neutral-50"
+            company === "" && "bg-neutral-50"
           )}
         />
         <div className="flex flex-col gap-px">

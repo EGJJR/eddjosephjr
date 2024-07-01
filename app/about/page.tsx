@@ -7,18 +7,17 @@ import ConnectLinks from "@/app/components/ConnectLinks";
 import Workplaces from "@/app/about/components/Workplaces";
 import Gallery from "@/app/about/components/Gallery";
 
-import hinesLogo from "public/work/hines-logo.jpeg";
-import perishipLogo from "public/work/periship-logo.jpeg";
-import camsLogo from "public/work/cams-logo.png";
-import uhdLogo from "public/work/uhd.png";
 
-import meLily from "public/gallery/me-lily.jpg";
-import colorado from "public/gallery/colorado.jpg";
+import portrait from "public/gallery/portrait.jpeg";
+import field from "public/gallery/field.jpeg";
+import blueHour from "public/gallery/bluehour.jpg";  
+import working from "public/gallery/working.jpg";
+
 
 export const metadata: Metadata = {
-  title: "About | Brian Ruiz",
+  title: "About | Edd Joseph Jr.",
   description:
-    "Houston-based Software Engineer and a Content Creator, sharing insights on well-designed products and technology advancements.",
+    "",
 };
 
 export default function About() {
@@ -32,7 +31,7 @@ export default function About() {
           className="animate-in text-secondary"
           style={{ "--index": 1 } as React.CSSProperties}
         >
-          A glimpse into me.
+          A glimpse of me.
         </p>
       </div>
       <div className="mb-8 md:hidden">
@@ -41,8 +40,8 @@ export default function About() {
           style={{ "--index": 1 } as React.CSSProperties}
         >
           <Image
-            src={meLily}
-            alt={"me and lily"}
+            src={portrait}
+            alt={"portrait"}
             width={324}
             height={139}
             className="pointer-events-none relative inset-0 h-60 -rotate-6 rounded-xl bg-gray-400 object-cover shadow-md"
@@ -56,8 +55,8 @@ export default function About() {
           style={{ "--index": 2 } as React.CSSProperties}
         >
           <Image
-            src={colorado}
-            alt={"me and lily"}
+            src={blueHour}
+            alt={"blueHour"}
             width={220}
             height={260}
             className="pointer-events-none absolute inset-0 -top-48 left-[45%] w-48 rotate-6 rounded-xl bg-gray-400 object-cover shadow-md md:left-[60%] md:w-56"
@@ -76,25 +75,26 @@ export default function About() {
         <Section heading="About" headingAlignment="left">
           <div className="flex flex-col gap-6">
             <p>
-              Hi, I&apos;m Brian, born in Honduras and raised in Houston, Texas.
-              I have been coding for {new Date().getFullYear() - 2019} years. As
+              Hi, I&apos;m Edd, born and raised in Miami, Florida.
+              I have been coding for {new Date().getFullYear() - 2022} years. As
               a software engineer, I specialize in full-stack web development
-              and product design.
+              and product design. Along with coding, I am the Co-Founder and CEO of{" "}
+              <Link href="https://freshnest.tech">FreshNest</Link>, which is a platform aimed to connect Short-term rental hosts with cleaners, 
+              making cleaning effortless.
             </p>
             <p>
-              In addition to coding, I create content on my{" "}
+              In addition to coding and building, I create content on my{" "}
               <Link
                 className="underline"
-                href="https://www.youtube.com/@brianruizy"
+                href="https://www.youtube.com/@eddjosephjr"
               >
                 YouTube
               </Link>{" "}
-              channel, covering all things technology, coding vlogs, and
-              personal development.
+              channel, documenting my journey as an entrepreneur and software engineer.
             </p>
             <p>
-              When I&apos;m not at my desk, I am probably lifting weights,
-              playing soccer, riding my e-bike, or at a local coffee shop :]
+              When I&apos;m not at my desk, I am probably playing basketball,
+              playing the piano, reading, or getting gelato :]
             </p>
           </div>
         </Section>
@@ -130,11 +130,11 @@ export default function About() {
         <Section heading="Work" headingAlignment="left">
           <div className="flex w-full flex-col gap-8">
             <p>
-              I specialize in Python, data analytics, React, web development,
-              UI/UX, and product design. But I am always learning new things.
-              Here are some of the places I have worked.
+              Regarding my technical skills, I specialize in Python, Next.JS, React, web/mobile development,
+              UI/UX, and product design, and product management. But I am always learning new things.
+    
             </p>
-            <Workplaces items={workplaces} />
+            {/* <Workplaces items={workplaces} /> */}
           </div>
         </Section>
       </div>
@@ -147,28 +147,28 @@ const workplaces = [
     title: "Full Stack Engineer",
     company: "Hines",
     date: "2022 -",
-    imageSrc: hinesLogo,
+    // imageSrc: hinesLogo,
     link: "https://hines.com",
   },
   {
     title: "Software Engineer",
     company: "PeriShip",
     date: "2021 - 2022",
-    imageSrc: perishipLogo,
+    // imageSrc: perishipLogo,
     link: "https://peripharma.com/",
   },
   {
     title: "Python Developer",
     company: "CAMS",
     date: "2019 - 2020",
-    imageSrc: camsLogo,
+    // imageSrc: camsLogo,
     link: "https://camstex.com",
   },
   {
     title: "Coding Camp Instructor",
     company: "University of Houston",
     date: "2019",
-    imageSrc: uhdLogo,
+    // imageSrc: uhdLogo,
     link: "https://www.uhd.edu/",
   },
 ];
