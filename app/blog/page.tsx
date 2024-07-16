@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { allBlogs } from ".contentlayer/generated";
 import PostList from "@/app/blog/components/PostList";
-import NewsletterSignupForm from "@/app/blog/components/NewsletterSignupForm";
+import NewsletterSignupForm from "@/app/blog/components/mdx/NewsletterSignupForm";
 
 export const metadata: Metadata = {
   title: "Blog | Edd Joseph Jr.",
