@@ -13,7 +13,7 @@ import FlipNumber from "@/app/components/FlipNumber";
 import { formatDate } from "@/app/_utils/formatDate";
 import { getViewsCount } from "@/app/db/queries";
 import { incrementViews } from "@/app/db/actions";
-import NewsletterSignupForm from "@/app/blog/components/mdx/NewsletterSignupForm";
+import NewsletterSignupForm from "@/app/blog/components/NewsletterSignupForm";
 
 type Props = {
   params: {
