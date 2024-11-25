@@ -51,12 +51,12 @@ const ConnectLinks: ConnectLink[] = [
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/eddjospehjr/",
+    href: "https://www.instagram.com/eddjospehjr",
     icon: <FaInstagram />,
   },
   {
     label: "Twitter",
-    href: "https://twitter.com/EddJoseph_",
+    href: "https://x.com/eddjosephjr",
     icon: <FaXTwitter />,
   },
   {

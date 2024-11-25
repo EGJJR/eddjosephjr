@@ -27,7 +27,7 @@ export default function Home() {
             className="max-w-lg animate-in text-secondary"
             style={{ "--index": 1 } as React.CSSProperties}
           >
-            I am an entrepreneur and software engineer who builds for the web with a
+            I am an entrepreneur, software engineer, and student who builds for the web with a
             design-oriented approach. I am also the Technical Co-Founder of{" "}
             <Link href="https://freshnest.tech">FreshNest</Link>. 
             </p>
@@ -69,7 +69,7 @@ export default function Home() {
           </Link>
           <Link
             className="flex w-fit items-center rounded-full bg-secondary px-3 py-1 no-underline hover:bg-tertiary"
-            href="https://twitter.com/EddJoseph_/"
+            href="https://x.com/eddjosephjr/"
           >
             Tweets
             <ArrowUpRightIcon className="h-4 w-4 text-tertiary" />
