@@ -6,7 +6,7 @@ export async function GET() {
     return new Response("API_SECRET is missing", { status: 500 });
   }
 
-  const url = `https://api.convertkit.com/v4/subscribers?api_secret=${API_SECRET}`;
+  const url = `https://api.convertkit.com/v3/subscribers?api_secret=${API_SECRET}`;
 
   try {
     const response = await fetch(url, {

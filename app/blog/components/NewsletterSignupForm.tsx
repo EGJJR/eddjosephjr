@@ -13,7 +13,7 @@ export default function NewsletterSignupForm({
 }) {
   const [data, setData] = useState<{ subscribers: number }>();
 
-  const name = "email_address";
+  const name = "email";
   const [success, setSuccess] = useState<boolean | undefined>();
 
   useEffect(() => {
@@ -31,10 +31,10 @@ export default function NewsletterSignupForm({
 
     const target = event.target as HTMLFormElement;
     const data = new FormData(target);
-    const email_address = data.get(name);
+    const email = data.get(name);
 
     const body = JSON.stringify({
-      email_address,
+      email,
     });
 
     const headers = new Headers({
@@ -42,7 +42,7 @@ export default function NewsletterSignupForm({
     });
 
     try {
-      const response = await fetch(`/api/convertkit/subscribers`, {
+      const response = await fetch(`/api/convertkit/subscribe`, {
         method: "POST",
         mode: "cors",
         cache: "no-cache",
@@ -90,13 +90,13 @@ export default function NewsletterSignupForm({
       </p>
       <form className="mt-2 w-full max-w-md " onSubmit={onSubmit}>
         <div className="flex w-full rounded-md border border-primary bg-contrast py-1 pl-3 pr-1">
-          <label htmlFor="email_address" className="sr-only">
+          <label htmlFor="email" className="sr-only">
             Email
           </label>
           <input
             type="email"
             name={name}
-            id="email_address"
+            id="email"
             className="flex-1 bg-transparent outline-none placeholder:text-tertiary"
             placeholder="you@example.com"
             required

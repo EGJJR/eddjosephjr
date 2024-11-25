@@ -6,6 +6,7 @@ import {
   FaDiscord,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaThreads } from "react-icons/fa6";
 
 interface ConnectLink {
   label: string;
@@ -51,7 +52,7 @@ const ConnectLinks: ConnectLink[] = [
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/eddjospehjr",
+    href: "https://www.instagram.com/eddjosephjr",
     icon: <FaInstagram />,
   },
   {
@@ -59,11 +60,11 @@ const ConnectLinks: ConnectLink[] = [
     href: "https://x.com/eddjosephjr",
     icon: <FaXTwitter />,
   },
-  {
-    label: "Discord",
-    href: "https://discord.gg/4Gu6CnEy",
-    icon: <FaDiscord />,
-  },
+  // {
+  //   label: "Discord",
+  //   href: "https://discord.gg/4Gu6CnEy",
+  //   icon: <FaDiscord />,
+  // },
   {
     label: "GitHub",
     href: "https://github.com/EGJJR",
@@ -73,6 +74,11 @@ const ConnectLinks: ConnectLink[] = [
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/edd-joseph/",
     icon: <FaLinkedin />,
+  },
+  {
+    label: "Threads",
+    href: "https://www.threads.net/@eddjosephjr/",
+    icon: <FaThreads />,
   },
 ];
 

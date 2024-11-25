@@ -78,7 +78,7 @@ export default function About() {
               Hi, I&apos;m Edd, born and raised in Miami, Florida.
               I have been coding for {new Date().getFullYear() - 2022} years. As
               a software engineer, I specialize in full-stack web development
-              and product design. Along with coding, I am the Co-Founder and CEO of{" "}
+              and product design. Along with coding, I am the Technical Co-Founder and CEO of{" "}
               <Link href="https://freshnest.tech">FreshNest</Link>, which is a platform aimed to connect Short-term rental hosts with cleaners, 
               making cleaning effortless.
             </p>
