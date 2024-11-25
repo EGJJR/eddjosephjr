@@ -42,7 +42,7 @@ export default function NewsletterSignupForm({
     });
 
     try {
-      const response = await fetch(`/api/convertkit/subscribe`, {
+      const response = await fetch(`/api/convertkit/subscribers`, {
         method: "POST",
         mode: "cors",
         cache: "no-cache",

@@ -14,8 +14,8 @@ export async function POST(req: NextRequest) {
     });
   }
 
-  const { email } = await req.json();
-  const url = `https://api.convertkit.com/v3/forms/${FORM_ID}/subscribe`;
+  const { email_address } = await req.json();
+  const url = `https://api.convertkit.com/v4/forms/${FORM_ID}/subscribers`;
 
   try {
     const response = await fetch(url, {
@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
       },
       body: JSON.stringify({
         api_key: API_KEY,
-        email: email,
+        email_address: email_address,
       }),
     });
 
