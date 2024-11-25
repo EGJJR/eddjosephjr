@@ -13,7 +13,7 @@ export default function NewsletterSignupForm({
 }) {
   const [data, setData] = useState<{ subscribers: number }>();
 
-  const name = "email";
+  const name = "email_address";
   const [success, setSuccess] = useState<boolean | undefined>();
 
   useEffect(() => {
@@ -31,10 +31,10 @@ export default function NewsletterSignupForm({
 
     const target = event.target as HTMLFormElement;
     const data = new FormData(target);
-    const email = data.get(name);
+    const email_address = data.get(name);
 
     const body = JSON.stringify({
-      email,
+      email_address,
     });
 
     const headers = new Headers({
@@ -90,13 +90,13 @@ export default function NewsletterSignupForm({
       </p>
       <form className="mt-2 w-full max-w-md " onSubmit={onSubmit}>
         <div className="flex w-full rounded-md border border-primary bg-contrast py-1 pl-3 pr-1">
-          <label htmlFor="email" className="sr-only">
+          <label htmlFor="email_address" className="sr-only">
             Email
           </label>
           <input
             type="email"
             name={name}
-            id="email"
+            id="email_address"
             className="flex-1 bg-transparent outline-none placeholder:text-tertiary"
             placeholder="you@example.com"
             required
