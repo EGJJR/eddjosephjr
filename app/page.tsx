@@ -74,13 +74,13 @@ export default function Home() {
             Tweets
             <ArrowUpRightIcon className="h-4 w-4 text-tertiary" />
           </Link>
-          <Link
+          {/* <Link
             className="flex w-fit items-center rounded-full bg-secondary px-3 py-1 no-underline hover:bg-tertiary"
             href="https://www.tiktok.com/@eddjosephjr"
           >
             Tiktok
             <ArrowUpRightIcon className="h-4 w-4 text-tertiary" />
-          </Link>
+          </Link> */}
         </div>
       </div>
 
