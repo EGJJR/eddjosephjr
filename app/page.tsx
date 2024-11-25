@@ -28,7 +28,7 @@ export default function Home() {
             style={{ "--index": 1 } as React.CSSProperties}
           >
             I am an entrepreneur and software engineer who builds for the web with a
-            design-oriented approach. I am also the Co-Founder and CEO of{" "}
+            design-oriented approach. I am also the Technical Co-Founder of{" "}
             <Link href="https://freshnest.tech">FreshNest</Link>. 
             </p>
             
