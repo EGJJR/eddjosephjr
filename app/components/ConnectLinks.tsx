@@ -7,6 +7,7 @@ import {
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaThreads } from "react-icons/fa6";
+import { BsMailboxFlag } from "react-icons/bs";
 
 interface ConnectLink {
   label: string;
@@ -44,6 +45,11 @@ const ConnectLinks: ConnectLink[] = [
         <path d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
       </svg>
     ),
+  },
+  {
+    label: "Newsletter",
+    href: "https://embeds.beehiiv.com/a45cb158-6258-4f7e-abdb-de5dfa4095af",
+    icon: <BsMailboxFlag />,
   },
   {
     label: "YouTube",

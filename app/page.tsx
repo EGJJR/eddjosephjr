@@ -46,13 +46,13 @@ export default function Home() {
           className="flex animate-in gap-3 text-sm"
           style={{ "--index": 2 } as React.CSSProperties}
         >
-          <Link
+          {/* <Link
             href="https://youtube.com/@eddjosephjr"
             className="flex w-fit items-center rounded-full bg-secondary px-3 py-1 no-underline hover:bg-tertiary"
           >
             Youtube
             <ArrowUpRightIcon className="h-4 w-4 text-tertiary" />
-          </Link>
+          </Link> */}
           <Link
             href="https://instagram.com/eddjosephjr/"
             className="flex w-fit items-center rounded-full bg-secondary px-3 py-1 no-underline hover:bg-tertiary"
@@ -74,13 +74,13 @@ export default function Home() {
             Tweets
             <ArrowUpRightIcon className="h-4 w-4 text-tertiary" />
           </Link>
-          {/* <Link
+          <Link
             className="flex w-fit items-center rounded-full bg-secondary px-3 py-1 no-underline hover:bg-tertiary"
-            href="https://www.tiktok.com/@eddjosephjr"
+            href="https://embeds.beehiiv.com/a45cb158-6258-4f7e-abdb-de5dfa4095af"
           >
-            Tiktok
+            Newsletter
             <ArrowUpRightIcon className="h-4 w-4 text-tertiary" />
-          </Link> */}
+          </Link>
         </div>
       </div>
 

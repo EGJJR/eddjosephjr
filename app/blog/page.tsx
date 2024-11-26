@@ -41,12 +41,12 @@ export default function BlogPage() {
       >
         <PostList posts={blogs} />
       </div>
-      <div
+      {/* <div
         className="animate-in"
         style={{ "--index": 3 } as React.CSSProperties}
       >
         <NewsletterSignupForm />
-      </div>
+      </div> */}
     </div>
   );
 }
