@@ -2,13 +2,15 @@
 
 # My Personal Website
 
+![Template](https://github.com/EGJJR/eddjosephjr/blob/cadd580bf469136d13a079318609623c335c30da/public/Edd%20Joseph%20Jr_%20%C2%B7%202.27pm%20%C2%B7%2011-25.jpeg)
+
 My personal portfolio website designed to be simplistic and clean while including features like MDX blog posts with view counts, a dark mode toggle, gear list, an about page, and more.
 
 ## Tech Stack
 
 backend:
 
-- [Next.js](nextjs.org) / TypeScript
+- [Next.js](nextjs.org) / [TypeScript](https://www.typescriptlang.org/)
 - [MDX](https://mdxjs.com) / [Contentlayer](https://contentlayer.dev/) (Blog Posts)
 - [Vercel Postgres](https://vercel.com/storage/postgres) (Database)
 
