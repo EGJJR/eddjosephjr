@@ -5,7 +5,7 @@ import Link from "@/app/components/Link";
 import { allBlogs } from ".contentlayer/generated";
 import Section from "@/app/components/Section";
 import ConnectLinks from "@/app/components/ConnectLinks";
-import StoicImage from '/public/blog/tailwind/090w.png'; // Import your image
+
 // import Avatar from "@/app/components/Avatar";
 import Tags from "@/app/components/Tags";
 import Mdx from "@/app/blog/components/MdxWrapper";
