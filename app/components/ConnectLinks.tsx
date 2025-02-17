@@ -8,6 +8,7 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import { FaThreads } from "react-icons/fa6";
 import { BsMailboxFlag } from "react-icons/bs";
+import { FaBookOpen } from "react-icons/fa";
 
 interface ConnectLink {
   label: string;
@@ -66,11 +67,11 @@ const ConnectLinks: ConnectLink[] = [
     href: "https://x.com/eddjosephjr",
     icon: <FaXTwitter />,
   },
-  // {
-  //   label: "Discord",
-  //   href: "https://discord.gg/4Gu6CnEy",
-  //   icon: <FaDiscord />,
-  // },
+  {
+    label: "Resume",
+    href: "https://www.overleaf.com/read/tpkfzzgkywfj#92bba0",
+    icon: <FaBookOpen />,
+  },
   {
     label: "GitHub",
     href: "https://github.com/EGJJR",

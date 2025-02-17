@@ -130,9 +130,12 @@ export default function About() {
         <Section heading="Work" headingAlignment="left">
           <div className="flex w-full flex-col gap-8">
             <p>
-              Regarding my technical skills, I specialize in Python, Next.JS, React, web/mobile development,
-              UI/UX, and product design, and product management. But I am always learning new things.
+              Regarding my technical skills, I specialize in Python, Typescript, Next.JS, React, web/mobile development,
+              UI/UX, and product management. But I am always learning new things.
     
+            </p>
+            <p>
+              Here's my{" "} <Link href="https://www.overleaf.com/read/tpkfzzgkywfj#92bba0">resume</Link>. 
             </p>
             {/* <Workplaces items={workplaces} /> */}
           </div>
