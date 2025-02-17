@@ -75,7 +75,7 @@ export default function About() {
         <Section heading="About" headingAlignment="left">
           <div className="flex flex-col gap-6">
             <p>
-              Hello, I&apos;m Edd! Originally from Miami, Florida.
+              Hello, it's Edd! Originally from Miami, Florida.
               I have been coding for {new Date().getFullYear() - 2022} years. As
               a software engineer, I specialize in full-stack web development
               and product design. Along with coding, I am the Technical Co-Founder and CEO of{" "}
@@ -93,7 +93,7 @@ export default function About() {
               channel, documenting my journey as an entrepreneur and software engineer.
             </p>
             <p>
-              When I&apos;m not at my desk, I am probably playing basketball,
+              When I am not at my desk, I am probably playing basketball,
               playing the piano, reading, or getting gelato :]
             </p>
           </div>
