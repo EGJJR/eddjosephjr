@@ -3,7 +3,7 @@ const { withContentlayer } = require("next-contentlayer");
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    serverActions: {}, // Replace true with an object
+    serverActions: true, // Replace true with an object
   },
   reactStrictMode: true,
   images: {
